@@ -1,0 +1,1 @@
+cmd_/home/pi/kernel_test/hello.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/pi/kernel_test/hello.ko /home/pi/kernel_test/hello.o /home/pi/kernel_test/hello.mod.o ;  true

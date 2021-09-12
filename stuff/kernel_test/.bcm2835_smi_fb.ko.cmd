@@ -1,0 +1,1 @@
+cmd_/home/pi/kernel_test/bcm2835_smi_fb.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/pi/kernel_test/bcm2835_smi_fb.ko /home/pi/kernel_test/bcm2835_smi_fb.o /home/pi/kernel_test/bcm2835_smi_fb.mod.o ;  true

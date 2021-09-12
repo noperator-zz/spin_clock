@@ -1,0 +1,14 @@
+/dts-v1/;
+/plugin/;
+/ {
+	fragment@0 {
+		target = <&soc>;
+		__overlay__ {
+			smi_fb {
+				compatible = "brcm,bcm2835-smi-fb";
+				smi_handle = <&smi>;
+				status = "okay";
+			};
+		};
+	};
+};
